@@ -1,0 +1,15 @@
+@use "global" as *;
+.mv__sub-title {
+  // font
+  font-family: "Noto Sans JP";
+  font-size: rem(20);
+  font-weight: $bold;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

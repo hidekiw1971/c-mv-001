@@ -1,0 +1,9 @@
+@use "global" as *;
+.mv__contents {
+  // position
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -17,9 +17,11 @@
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="”icon”" href="" />
+  <link rel="icon" href="images/favicon.ico" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
+  <!-- css/swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
@@ -27,7 +29,44 @@
 
 <body>
   <!-- copy start -->
+  <section class="mv">
+    <div class="mv__inner">
+      <div class="mv__contents">
+        <!-- Swiper start -->
+        <div class="swiper">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/FyD3OWBuXnY1@2x.png" alt="img1">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/FyD3OWBuXnY2@2x.png" alt="img2">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/FyD3OWBuXnY3@2x.png" alt="img3">
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- Swiper end -->
+        <div class="mv__content">
+          <p class="mv__main-title">メインタイトルが入ります</p>
+          <p class="mv__sub-title">サブタイトルが入ります</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- copy end -->
+  <!-- JavaScript/swiper -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
