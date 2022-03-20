@@ -1,6 +1,6 @@
 @use "global" as *;
 .swiper {
-  // padding: 16px;
+  padding: 16px;
   // width: rem(375); 画面サイズはここで設定する。
 }
 @keyframes zoomUp {
@@ -21,4 +21,18 @@
   display: block;
   object-fit: cover;
   height: rem(770);
+}
+
+// 擬似要素の親要素(画像にマスクする)
+.slide-img {
+  position: relative;
+}
+
+// 擬似要素の子要素(画像にマスクする)
+.slide-img:before {
+  position: absolute;
+  content: "";
+  background-color: rgba(17, 17, 17, 0.2);
+  width: 100%;
+  height: 100%;
 }

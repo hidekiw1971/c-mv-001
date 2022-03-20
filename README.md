@@ -38,10 +38,16 @@
 
 ## 参考にしたサイト
 
-- xxx
+- 疑似要素を使って背景を任意の色で透過させながら覆う（マスクさせる）CSS
+- https://haniwaman.com/parts/post-10462/
+- 「コピペ」で簡単！Web パーツ屋
+- https://haniwaman.com/parts/
+- 擬似要素タグ before と after を活用しよう！基礎知識と使い方を解説！
+- https://tinyurl.com/yagoyr9n
 
 ## 更新履歴
 
+- 2022/3/20 初版 作成完了
 - 2022/3/20 初版 作成中(スライド画像にフィルター掛けて終了)
 
 ## 環境・使い方

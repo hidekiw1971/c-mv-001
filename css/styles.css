@@ -208,6 +208,10 @@ select::-ms-expand {
   line-height: 1;
   color: #fff;
 }
+.swiper {
+  padding: 16px;
+}
+
 @-webkit-keyframes zoomUp {
   0% {
     -webkit-transform: scale(1);
@@ -218,6 +222,7 @@ select::-ms-expand {
             transform: scale(1.15);
   }
 }
+
 @keyframes zoomUp {
   0% {
     -webkit-transform: scale(1);
@@ -241,5 +246,17 @@ select::-ms-expand {
      object-fit: cover;
   height: 770px;
   height: 48.125rem;
+}
+
+.slide-img {
+  position: relative;
+}
+
+.slide-img:before {
+  position: absolute;
+  content: "";
+  background-color: rgba(17, 17, 17, .2);
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
